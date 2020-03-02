@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 
-from movie import Movie
-
 
 def getSoup(url):
     result = requests.get(url)
